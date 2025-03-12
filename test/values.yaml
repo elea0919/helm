@@ -1,0 +1,13 @@
+pod1_name: wordpress
+pod2_name: nginx
+
+pod1_image: 
+  repository: wordpress
+  tag: "beta-fpm"
+
+pod1_port: 80
+
+pod2_image:
+  repository: nginx
+  tag: "1.14.2"
+    
